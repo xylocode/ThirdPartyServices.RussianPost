@@ -91,7 +91,7 @@ namespace RussianPostTest
                 DimensionType = DimensionType.S,
                 SmsNoticeRecipient = 1,
             };
-            var res = api.Calculation(req5);
+            var res5 = api.Calculation(req5);
             ;
 
         }
