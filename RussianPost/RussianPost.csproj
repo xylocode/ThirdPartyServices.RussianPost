@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
-		<TargetFrameworks>net6.0;net7.0</TargetFrameworks>
+		<TargetFrameworks>net6.0;net7.0;net8.0</TargetFrameworks>
 		<ImplicitUsings>disable</ImplicitUsings>
 		<Nullable>disable</Nullable>
 		<AssemblyName>XyloCode.ThirdPartyServices.RussianPost</AssemblyName>
@@ -13,7 +13,7 @@
 		<PackageIcon>LOGO.png</PackageIcon>
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 		<Product>XyloCode.ThirdPartyServices.RussianPost</Product>
-		<Version>1.0.2</Version>
+		<Version>1.1.0</Version>
 		<Description>
 			Unofficial .NET library for accessing the Russian Post API with partial implementation (postoffice list, calculator, normalization of postal addresses, names and telephone numbers).
 		</Description>
@@ -23,7 +23,7 @@
 		<RepositoryType>git</RepositoryType>
 		<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
-		<PackageReleaseNotes>Enabled GenerateDocumentationFile option.</PackageReleaseNotes>
+		<PackageReleaseNotes>NET 8.0 support.</PackageReleaseNotes>
 		<IncludeSymbols>True</IncludeSymbols>
 		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
 		<GenerateDocumentationFile>True</GenerateDocumentationFile>
